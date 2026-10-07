@@ -1,0 +1,37 @@
+# Logs & Env
+*.log
+.env
+.env.*
+.dev.vars
+.DS_Store
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build artifacts
+dist/
+dist-*/
+build/
+release/
+artifacts/
+*.tsbuildinfo
+.wrangler/
+
+# Rust & Tauri
+**/target/
+**/src-tauri/target/
+*.key
+*.key.pub
+
+# IDE & AI Caches
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.system_generated/
+.tempmediaStorage/
+*.dump
